@@ -615,22 +615,3 @@ int main()
       }
 }
 */
-
-int main()
-{
-      int n ; 
-      cin>>n;
-      int row = 1;
-
-      while(row<=n)
-      {
-            int col = n;
-            while(col<= 1)
-            {
-                  cout<<"* ";
-                  col--;
-            }
-            cout<<"\n";
-            row++;
-      }
-}
